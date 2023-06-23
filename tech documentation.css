@@ -1,0 +1,42 @@
+html {
+  background-color: #fffff2;
+}
+
+header {
+  font-size: 30px;
+}
+
+code {
+  background-color: lightgrey;
+}
+#navbar {
+  display: block;
+  border: dotted;
+  font-size: 30px;
+  min-width: 125px;
+  position: fixed;
+  }
+  .nav-link, #nav-head {
+    display: block;
+  }
+  .nav-link:visited {
+    color: darkgrey;
+  }
+  .nav-link:active {
+    color: black;
+  }
+#main-doc {
+  position: absolute;
+  margin-left: 150px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+@media only screen and (max-width: 815px) {
+  #navbar  {
+    border: 1px solid;
+    height: 207px;
+  }
