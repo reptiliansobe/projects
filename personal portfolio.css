@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.topbar {
+  background-color: lavender;
+  height: 10%;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+li {
+  font-size: 2rem;
+  font-family: Helvetica;
+  list-style: none;
+  color: gray;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+a:hover {
+  color: white;
+}
+#welcome-section {
+  background-color: pink;
+  min-height: 60vw;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#projects {
+  min-height: 60vw;
+  min-width: 100%;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+#contact {
+  min-height: 60vw;
+  min-width: 100%;
+  background-color: lightyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+h1, h2, h3 {
+  font-family: Helvetica;
+  font-size: 3rem;
+  text-align: center;
+  color: gray;
+}
+
+
+#tiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  line-height: 60px;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 2rem;
+}
+#links {
+  font-family: Helvetica;
+  text-align: center;
+  color: gray;
+  margin-top: 10%;
+  line-height: 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .topbar {
+    background-color: lightyellow;
+  }
+  #welcome-section {
+    background-color: lavender;
+  }
+  #projects {
+    background-color: pink;
+  }
+  #contact {
+    background-color: lightblue;
+  }
+}
