@@ -1,0 +1,82 @@
+html {
+  background-color: tan;
+}
+.nav-link, .links {
+  text-decoration: none;
+  display: inline-block;
+  color: green;
+}
+
+.links {
+  font-size: 2rem;
+  text-align: right;
+  color: green;
+}
+.nav-link:active {
+  color: white;
+}
+
+
+#pizza {
+  margin-top: 150px;
+}
+
+h1, h3 {
+  color: darkred;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+#wings:except h3 {
+  display: flex;
+  align-items: center;
+  }
+
+h1, h3, form, footer {
+  text-align: center;
+}
+
+#header-img {
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#menu {
+  justify-content: center;
+  align-content: center;
+  width: 200px;
+}
+
+@media (max-width: 650px) {
+  nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
