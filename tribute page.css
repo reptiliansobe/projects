@@ -1,0 +1,32 @@
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(139,0,0);
+  
+}
+* {
+  background-color: lightgrey;
+}
+
+.divider {
+  border-bottom: 4px solid darkgrey;
+}
+p {
+  text-align: center;
+}
+.brand {
+  height: auto;
+  max-width: 15%;
+  padding-left: 210;
+}
+a:hover {
+  color: rgb(152,0,0);
+}
+a:active {
+  color: darkgrey;
+}
